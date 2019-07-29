@@ -4,17 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/main.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body class="page">
     <h1 class="pageTitle">Adivina el número</h1>
     <form action="number" method="GET" class="guessNumber">
-      <label for="inputNumber">Introduce aquí tu número</label>
-      <input type="number" />
-      <input type="submit" id="inputNumber" name="inputNumber" value="Prueba" />
+      <label for="inputNumber" class="formLabel"
+        >Introduce aquí tu número</label
+      >
+      <input
+        type="number"
+        id="inputNumber"
+        class="inputNumber"
+        placeholder="Del 1 al 100"
+      />
+      <input
+        type="submit"
+        name="input-number"
+        value="Prueba"
+        class="inputSubmit"
+      />
     </form>
-    <aside class="counter"></aside>
+    <aside class="counter">
+      Nº de intentos:
+      <p class="counterNumber">0</p>
+    </aside>
     <div>
       <p class="answerResult"></p>
     </div>

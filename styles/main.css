@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page {
+  background-color: darkgrey;
+}
+.pageTitle {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+}
+.guessNumber {
+  height: 200px;
+  margin: 20px 150px 20px 150px;
+  padding: 15px 15px 15px 15px;
+  background-color: pink;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.formLabel {
+  font-family: "Open Sans", sans-serif;
+}
+.inputNumber {
+  width: 150px;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  border-radius: 5px;
+}
+.inputSubmit {
+  widht: 100px;
+  padding: 10px 10px 10px 10px;
+  border: solid 1px gray;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+.counter{
+    margin-left:40px;
+    align-self: flex-start align-self:right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.counterNumber{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+}
+.answerResult {
+margin: 10px 40px 10px 40px;
+padding: 15px 15px 15px 15px;
+background-color: aquamarine;
+color: white;
+text-align: centre;
+font-family: 'Open Sans', sans-serif;
+border-radius: 5px;
+}
