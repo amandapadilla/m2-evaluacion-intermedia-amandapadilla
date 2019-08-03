@@ -9,7 +9,7 @@ function getRandomNumber(max) {
 }
 const myRandomNumber = getRandomNumber(100);
 
-console.log(`Mi número aleatorio es ${myRandomNumber}`);
+//console.log(`Mi número aleatorio es ${myRandomNumber}`);
 
 function compareInputValue {
     if (inputNumber = randomNumber){

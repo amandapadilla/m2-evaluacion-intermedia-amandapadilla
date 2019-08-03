@@ -12,31 +12,31 @@
     <title>Document</title>
   </head>
   <body class="page">
-    <h1 class="pageTitle">Adivina el número</h1>
-    <form action="number" method="GET" class="guessNumber">
-      <label for="inputNumber" class="formLabel"
-        >Introduce aquí tu número</label
-      >
-      <input
-        type="number"
-        id="inputNumber"
-        class="inputNumber"
-        placeholder="Del 1 al 100"
-      />
-      <input
-        type="submit"
-        name="input-number"
-        value="Prueba"
-        class="inputSubmit"
-      />
-    </form>
+      <main>
+        <h1 class="pageTitle">Adivina el número</h1>
+        <form action="number" method="GET" class="js-guessNumber guessNumber">
+          <label for="inputNumber" class="formLabel"
+          >Introduce aquí tu número</label>
+          <input
+          type="number"
+          id="inputNumber"
+          class="js-inputNumber inputNumber"
+          placeholder="Del 1 al 100"
+          />
+          <input
+          type="submit"
+          name="input-number"
+          value="Prueba"
+          class="js-inputSubmit inputSubmit"
+          />
+        </form>
     <aside class="counter">
       Nº de intentos:
-      <p class="counterNumber">0</p>
+      <p class="js-counterNumber counterNumber">0</p>
     </aside>
-    <div>
-      <p class="answerResult"></p>
-    </div>
+    <section>
+      <p class="js-answerResult answerResult">Escribe el número y dale a <strong>Prueba</strong></p>
+    </section>
     <script type="text/javascript" src="./js/main.js"></script>
   </body>
 </html>
